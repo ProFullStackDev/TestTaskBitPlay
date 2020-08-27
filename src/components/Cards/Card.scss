@@ -1,0 +1,97 @@
+.row-container{
+        width: 100%;
+        max-width: 500px;
+        padding:0px 25px;
+        margin-bottom: 50px;
+        .card-main-container{
+            color:white;
+            padding:10px 0px;
+            border-radius:8px;
+            background-color:#0a1f44;
+         
+            margin-bottom:20px;
+            .cd-1{
+                padding:0px 25px;
+            }
+            .cap-1{
+                display: flex;
+                overflow: auto;
+            }
+            .cap-2{
+                display: flex;
+                margin-left:23px ;
+            }
+            h5{
+                margin-top: 5px;
+                padding:1px 0px 8px 0px;
+            }
+            p{
+                text-transform: lowercase;
+                word-break: break-word;
+            }
+        }
+       
+}
+
+
+.new-row-container{
+    width: 100%;
+    max-width: 500px;
+    padding:0px 25px;
+    .card-main-container{
+        color:white;
+
+        border-radius:8px;
+        background-color:#0a1f44;
+        padding: 17px 20px;
+        margin-bottom:20px;
+        .header-box1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                .save-btn{
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+                    border-radius: 17px;
+                    padding: 6px 18px;
+                    background:pink;
+                }
+        }
+        .header-box2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                .edit-btn{
+                    color:pink;
+                    }
+                    .edited{display: flex;
+                        letter-spacing: 1px;
+                    justify-content: center;
+                    align-items: center;
+                    }
+        }
+        .text-area{
+            color: white;
+            border: none;
+            background: transparent;
+            width: 100%;
+            min-height: 100px;
+            outline: none;
+            margin-top:10px;
+            box-shadow: none;
+        }
+        h5{
+            padding:1px 0px 8px 0px;
+        }
+    }
+}
+
+.flag-box{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 14px 0px;
+}
+
+
